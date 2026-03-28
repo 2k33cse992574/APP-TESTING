@@ -1,0 +1,24 @@
+# Ignore local editor and agent metadata
+.agent/
+.claude/
+.codebuddy/
+.codex/
+.continue/
+.cursor/
+.gemini/
+.kiro/
+.opencode/
+.qoder/
+.roo/
+.trae/
+.windsurf/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore operating-system files
+*.log
+*.tmp
+
+# Ignore generated content
+node_modules/
