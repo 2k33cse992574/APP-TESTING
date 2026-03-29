@@ -1,0 +1,82 @@
+<section class="screen active" id="dashboard">
+  <div class="page-heading">
+    <div>
+      <p class="eyebrow">Welcome back, Ananya</p>
+      <h1>Student living, earning, and growth in one place.</h1>
+    </div>
+    <button class="button button-solid" data-action="quick-gig">Start a new gig</button>
+  </div>
+
+  <div class="dashboard-grid">
+    <article class="card">
+      <div class="card-title">Wallet balance</div>
+      <p class="stat">₹<span id="walletBalance">0</span></p>
+      <p class="meta">Available for rent, food, and services.</p>
+    </article>
+    <article class="card">
+      <div class="card-title">Active gigs</div>
+      <p class="stat"><span id="activeGigs">0</span></p>
+      <p class="meta">Track your live tasks and submissions.</p>
+    </article>
+    <article class="card">
+      <div class="card-title">Verified profile</div>
+      <p class="stat"><span id="profileScore">0</span>/100</p>
+      <p class="meta">Skills, projects, ratings, and certificates.</p>
+    </article>
+    <article class="card">
+      <div class="card-title">Campus services</div>
+      <p class="stat"><span id="pendingServices">0</span> requested</p>
+      <p class="meta">Housing, food, repairs, and deliveries live here.</p>
+    </article>
+  </div>
+
+  <div class="panel-grid">
+    <section class="panel-card">
+      <div class="panel-heading">
+        <h2>Next high-value gig</h2>
+        <span class="tag">Primary hook</span>
+      </div>
+      <p class="panel-copy">Apply for social media content creation, Canva design, data entry, or website fixes and earn ₹500–₹10,000 per task.</p>
+      <div class="panel-actions">
+        <button class="button button-solid" data-screen="gigs">Browse gigs</button>
+      </div>
+    </section>
+
+    <section class="panel-card panel-light">
+      <div class="panel-heading">
+        <h2>Daily essentials</h2>
+        <span class="tag">High frequency</span>
+      </div>
+      <ul class="feature-list">
+        <li>PG discovery with verified reviews</li>
+        <li>Monthly mess subscriptions</li>
+        <li>Pickup laundry & fast logistics</li>
+      </ul>
+      <div class="panel-actions">
+        <button class="button button-ghost" data-screen="housing">Open housing</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel-card">
+    <div class="panel-heading">
+      <h2>Career passport</h2>
+      <span class="tag">Build proof of work</span>
+    </div>
+    <p class="panel-copy">Your verified profile turns skills, completed projects, and company ratings into a trusted digital identity for hiring and credit line access.</p>
+    <div class="status-grid">
+      <div>
+        <span class="status-label">Skills</span>
+        <p id="skillCount">0</p>
+      </div>
+      <div>
+        <span class="status-label">Projects</span>
+        <p id="projectCount">0</p>
+      </div>
+      <div>
+        <span class="status-label">Ratings</span>
+        <p id="ratingValue">0.0</p>
+      </div>
+    </div>
+  </section>
+</section>

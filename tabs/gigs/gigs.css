@@ -1,0 +1,64 @@
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.list-panel {
+    display: grid;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.list-card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.04);
+    transition: transform 180ms ease, box-shadow 180ms ease;
+    position: relative;
+}
+
+.list-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 45px rgba(83, 61, 31, 0.08);
+}
+
+.list-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+}
+
+.list-card-top h3 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.list-meta {
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.reward {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--accent-strong);
+}
+
+.list-copy {
+    margin: 0.75rem 0 1.25rem;
+    font-size: 0.94rem;
+    line-height: 1.6;
+    color: #4a4134;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
